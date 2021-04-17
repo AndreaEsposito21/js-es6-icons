@@ -17,8 +17,18 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 20px 0;
 }
 
 .icon {
-    width: calc( ( 100% / 5 ) - 40px );
+    width: calc( ( 100% / 5 ) - 50px );
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.icon i {
+    font-size: 40px;
 }
